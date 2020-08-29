@@ -4,6 +4,11 @@ This is a blank project for TypeScript development with CDK.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
+## Assumptions
+   - default profile at runtime.
+   - cdk_vpc already installed (requires the vpc to attach.)
+
+
 ## Useful commands
 
  * `npm run build`   compile typescript to js
