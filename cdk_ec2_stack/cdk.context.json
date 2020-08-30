@@ -1,0 +1,45 @@
+{
+  "vpc-provider:account=161788100466:filter.tag:Name=VpcStack/automatedVpc:region=eu-west-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0eff7912a26023727",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "public-subnet",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-06ac030e03462e181",
+            "cidr": "10.0.1.0/25",
+            "availabilityZone": "eu-west-1a",
+            "routeTableId": "rtb-0f28b76eb0a863023"
+          },
+          {
+            "subnetId": "subnet-0fede6e92e2064b4e",
+            "cidr": "10.0.1.128/25",
+            "availabilityZone": "eu-west-1b",
+            "routeTableId": "rtb-0c68157d4909dd889"
+          }
+        ]
+      },
+      {
+        "name": "private-subnet",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0661de9d79b3c4659",
+            "cidr": "10.0.0.0/25",
+            "availabilityZone": "eu-west-1a",
+            "routeTableId": "rtb-03e8508e2514f4cb5"
+          },
+          {
+            "subnetId": "subnet-083cbc674115fca25",
+            "cidr": "10.0.0.128/25",
+            "availabilityZone": "eu-west-1b",
+            "routeTableId": "rtb-0e5b7c54fbf811155"
+          }
+        ]
+      }
+    ]
+  }
+}
