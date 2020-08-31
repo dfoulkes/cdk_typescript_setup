@@ -1,8 +1,6 @@
 import {App, Stack, StackProps} from '@aws-cdk/core';
 import {Peer, Port, SecurityGroup, SubnetType, Vpc} from '@aws-cdk/aws-ec2';
 
-let myVpcs;
-
 export class VpcStack extends Stack{
  
     readonly vpc: Vpc;
